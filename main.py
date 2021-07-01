@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from keras.models import Sequential
-from keras.layers import Dense, Flatten, Conv2D, MaxPool2D, Dropout
-from keras.optimizers import SGD, Adam
+from keras.layers import Dense, Flatten, Conv2D, MaxPool2D
+from keras.optimizers import Adam
 from tensorflow.keras.utils import to_categorical
 import pandas as pd
 import numpy as np
